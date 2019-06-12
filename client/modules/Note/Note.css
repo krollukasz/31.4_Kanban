@@ -1,1 +1,16 @@
 /* Note styles */
+.Note {
+  margin: 10px auto;
+  padding: 10px;
+  width: 220px;
+  background-color: #949da5;
+  font-size: 14px;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  list-style-type: none;
+}
+
+.Note:hover {
+  cursor: pointer;
+}

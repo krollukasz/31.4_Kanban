@@ -1,4 +1,21 @@
 /* Kanban styles */
 .Kanban {
   width: 100%;
+  height: auto;
+}
+
+button.AddLane {
+  margin: 20px 30px 0;
+  padding: 8px;
+  width: 120px;
+  background-color: #2a8dff;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid  #e7e7e7;
+  border-radius: 6px;
+}
+
+.AddLane:hover {
+  cursor: pointer;
 }

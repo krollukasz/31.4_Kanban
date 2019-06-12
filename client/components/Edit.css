@@ -1,0 +1,39 @@
+.NoteWrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+}
+
+.NoteTitle {
+  width: 75%;
+  color: #ececec;
+  font-weight: bold;
+}
+
+.DeleteNote {
+  margin: 0;
+  width: 10%;
+  text-align: right;
+}
+
+.DeleteNote:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+span.Delete {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  border: none;
+  position: relative;
+  top: -5px;
+}
+
+span.Delete:hover {
+  color: #fff;
+}
