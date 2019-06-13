@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+// import React, { Component, PropTypes } from 'react';
 import styles from './Edit.css';
 
 export default class Edit extends Component {
@@ -11,7 +12,9 @@ export default class Edit extends Component {
   finishEdit = (e) => {
     const value = e.target.value;
 
-    this.props.onUpdate(value);
+    if (this.props.onUpdate) {
+      this.props.onUpdate(value.trim());
+    }
   }
 
   renderDelete = () => {
